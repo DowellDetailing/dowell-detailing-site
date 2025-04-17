@@ -1,0 +1,84 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dowell Aviation and Boat Detailing</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header, footer { background: #1b1b1b; color: #fff; padding: 20px; text-align: center; }
+    nav a { color: #fff; margin: 0 15px; text-decoration: none; }
+    section { padding: 40px 20px; }
+    h1, h2 { color: #333; }
+    .pricing-table, .reviews, .gallery { max-width: 1000px; margin: auto; }
+    .pricing-table table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    .pricing-table th, .pricing-table td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+    .gallery img { width: 100%; max-width: 300px; margin: 10px; border-radius: 10px; }
+    .reviews blockquote { background: #f4f4f4; padding: 15px; border-left: 5px solid #007BFF; margin: 20px 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dowell Aviation and Boat Detailing</h1>
+    <p>Luxury Aircraft & Marine Detailing | Baltimore, Maryland</p>
+    <p>📞 443-882-0998</p>
+    <nav>
+      <a href="#pricing">Pricing</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="pricing" class="pricing-table">
+    <h2>Pricing</h2>
+    <h3>Aircraft Detailing</h3>
+    <table>
+      <tr><th>Aircraft Type</th><th>Exterior Wash</th><th>Full Detail</th></tr>
+      <tr><td>Light Jet</td><td>$400–$600</td><td>$800–$1,200</td></tr>
+      <tr><td>Mid-Size Jet</td><td>$600–$900</td><td>$1,300–$1,800</td></tr>
+      <tr><td>Heavy Jet</td><td>$900–$1,400</td><td>$2,000–$3,200</td></tr>
+    </table>
+
+    <h3>Boat Detailing</h3>
+    <table>
+      <tr><th>Boat Size</th><th>Wash & Wax</th><th>Full Detail</th></tr>
+      <tr><td>Under 30 ft</td><td>$15/ft</td><td>$25–$30/ft</td></tr>
+      <tr><td>30–50 ft</td><td>$20/ft</td><td>$35–$45/ft</td></tr>
+      <tr><td>Over 50 ft</td><td>$25/ft</td><td>$50–$65/ft</td></tr>
+    </table>
+    <p>*Prices may vary based on condition, oxidation level, and location.</p>
+  </section>
+
+
+
+  <section id="reviews" class="reviews">
+    <h2>Client Reviews</h2>
+    <blockquote>
+      <p>“Flawless work on my Gulfstream — inside and out. Highly recommend!”</p>
+      <footer>— Mark D., Annapolis, MD</footer>
+    </blockquote>
+    <blockquote>
+      <p>“The detail made my 42' Sea Ray look showroom new.”</p>
+      <footer>— Tina R., Chesapeake Bay</footer>
+    </blockquote>
+    <blockquote>
+      <p>“Professional, efficient, and the best attention to detail I've seen.”</p>
+      <footer>— Captain John, DC Metro Area</footer>
+    </blockquote>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: 443-882-0998</p>
+    <p>Email: dowellaviationdetailing@gmail.com</p>
+    <p>Location: Baltimore, Maryland</p>
+    <p><strong>Schedule your service today and experience luxury detailing done right.</strong></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dowell Aviation and Boat Detailing. All rights reserved.</p>
+  </footer>
+</body>
+</html>
